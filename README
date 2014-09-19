@@ -29,6 +29,7 @@ wavemon uses autoconf, so that in most cases you can simply run
 	make
 	sudo make install
 
+In Debian and derivatives needs libncurses5-dev, and build-essential packages
 to build and install the package. Type 'make uninstall' if not happy.
 Refer to the file INSTALL for generic installation instructions.
 
