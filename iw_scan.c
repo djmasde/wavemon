@@ -7,7 +7,8 @@
 #include "iw_if.h"
 #include <search.h>		/* lsearch(3) */
 
-#define MAX_SCAN_WAIT	10000	/* maximum milliseconds spent waiting */
+#define MAX_SCAN_WAIT	15000	/* maximum milliseconds spent waiting */
+/*MAX_SCAN_WAIT to 15000 (runs ok with ath9k driver with "firmware libre") */
 
 /*
  * Meta-data about all the additional standard Wireless Extension events
